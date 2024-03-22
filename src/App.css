@@ -1,20 +1,22 @@
 .navbar {
+  background-color: #5F5D9C;
+  color: #ffffff;
+  padding: 15px;
   display: flex;
+  align-items: center;
 }
 
-.tab {
-  padding: 10px 20px;
-  cursor: pointer;
-  border: 1px solid #ccc;
-  border-bottom: none;
-  border-radius: 5px 5px 0 0;
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
-.tab:hover {
-  background-color: #f0f0f0;
+.navbar-icon {
+  height: 30px;
+  margin-right: 20px;
 }
 
-.tab.active {
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
+.navbar-text {
+  font-weight: bold;
+  font-size: 18px;
 }
